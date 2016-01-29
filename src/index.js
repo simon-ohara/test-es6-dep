@@ -6,3 +6,5 @@ const NAME = 'Test App'
 let app = new App(NAME, DESCRIPTION);
 
 export { app };
+
+export App from './App';

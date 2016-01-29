@@ -4,8 +4,13 @@
   "description": "This is the project that will act as a dependency in this test",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "install": "node_modules/babel-cli/bin/babel.js -d lib src/"
   },
   "author": "Simon O'Hara",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.4.5",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13"
+  }
 }
