@@ -1,10 +1,11 @@
-import App from './App';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { App, app } from './app-maker';
+import MyComponent from './MyComponent';
 
-const NAME = 'Test App'
-    , DESCRIPTION = 'An application to be used as a dependency in the transpiled ES6 import test';
-
-let app = new App(NAME, DESCRIPTION);
-
-export { app };
-
-export App from './App';
+export default node => {
+  ReactDOM.render(
+    <MyComponent />
+  , node
+  );
+}
