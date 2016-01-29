@@ -8,7 +8,7 @@
     "url": "git+https://github.com/simon-ohara/test-es6-dep.git"
   },
   "scripts": {
-    "postinstall": "node_modules/babel-cli/bin/babel.js -d lib src/"
+    "babel": "node_modules/babel-cli/bin/babel.js -d lib src/"
   },
   "author": "Simon O'Hara",
   "license": "ISC",
