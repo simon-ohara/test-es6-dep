@@ -2,7 +2,7 @@
   "name": "test-es6-dep",
   "version": "0.0.0",
   "description": "This is the project that will act as a dependency in this test",
-  "main": "lib/index.js",
+  "main": "src/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/simon-ohara/test-es6-dep.git"
